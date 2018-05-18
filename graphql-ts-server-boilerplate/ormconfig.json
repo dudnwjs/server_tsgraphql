@@ -1,0 +1,24 @@
+{
+   "type": "mongodb",
+   "host": "ds123658.mlab.com",
+   "port": 23658,
+   "database": "dudnwjsdb",
+   "username": "test",
+   "password": "test",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
